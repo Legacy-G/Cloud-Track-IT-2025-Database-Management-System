@@ -47,7 +47,11 @@ docker-pull-image/
 
 ```bash
 git clone https://github.com/Legacy-G/Cloud-Track-IT-2025-Database-Management-System.git
-cd docker-pull-image
+cd Cloud-Track-IT-2025-Database-Management-System/docker-pull-image
+```
+Then:
+```bash
+cd Cloud-Track-IT-2025-Database-Management-System/docker-pull-image
 ```
 
 ### 2. (Optional) Reset PostgreSQL Volume
