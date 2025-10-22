@@ -2,13 +2,14 @@ version: '3.8'
 
 services:
   db:
-    image: postgres:15
+    image: postgres:17.5
     restart: always
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     volumes:
       - ./data/postgres:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d
     ports:
       - "5432:5432"
 
